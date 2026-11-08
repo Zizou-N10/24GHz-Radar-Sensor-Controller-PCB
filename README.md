@@ -1,16 +1,16 @@
-\# 24 GHz Radar Sensor Controller PCB
+# 24 GHz Radar Sensor Controller PCB
 
 
 
 A custom-designed, 2-layer radar sensor controller PCB developed using KiCad, featuring an ESP32-C3 microcontroller and an expansion interface for 24 GHz FMCW radar modules.
-
+|
 
 
 This project was an opportunity to explore electronic design automation (EDA), schematic design, PCB layout, component selection, and manufacturing preparation.
 
 
 
-\## Project Overview
+## Project Overview
 
 
 
@@ -22,55 +22,55 @@ The design was developed in KiCad, from schematic capture to PCB routing and man
 
 
 
-\## Project Gallery
+## Project Gallery
 
 
 
-\### 3D PCB Renders
+### 3D PCB Renders
 
 
 
-!\[PCB 3D View 1](Images/3D%20View%201.png)
+![PCB 3D View 1](Images/3D%20View%201.png)
 
 
 
-!\[PCB 3D View 2](Images/3D%20View%202.png)
+![PCB 3D View 2](Images/3D%20View%202.png)
 
 
 
-\### PCB Layout
+### PCB Layout
 
 
 
-!\[PCB Layout](Images/PCB.png)
+![PCB Layout](Images/PCB.png)
 
 
 
-\### Schematic
+### Schematic
 
 
 
-!\[Circuit Schematic](Images/Schematic.png)
+![Circuit Schematic](Images/Schematic.png)
 
 
 
-\### Bill of Materials
+### Bill of Materials
 
 
 
-!\[Bill of Materials](Images/BOM.png)
+![Bill of Materials](Images/BOM.png)
 
 
 
-\### Manufacturing Verification
+### Manufacturing Verification
 
 
 
-!\[JLCPCB Verification](Images/JLCPCB.png)
+![JLCPCB Verification](Images/JLCPCB.png)
 
 
 
-\## Technical Specifications
+## Technical Specifications
 
 
 
@@ -98,27 +98,27 @@ The design was developed in KiCad, from schematic capture to PCB routing and man
 
 
 
-\## Key Features
+## Key Features
 
 
 
-\- USB Type-C power input.
+- USB Type-C power input.
 
-\- 5V to 3.3V voltage regulation.
+- 5V to 3.3V voltage regulation.
 
-\- ESP32-C3 microcontroller.
+- ESP32-C3 microcontroller.
 
-\- Status and target-detection LED indicators.
+- Status and target-detection LED indicators.
 
-\- Reset and boot buttons.
+- Reset and boot buttons.
 
-\- Expansion header for compatible radar modules.
+- Expansion header for compatible radar modules.
 
-\- Two-layer PCB design.
+- Two-layer PCB design.
 
 
 
-\## Design and Engineering
+## Design and Engineering
 
 
 
@@ -126,41 +126,41 @@ The project involved several stages of electronic hardware development:
 
 
 
-\### 1. Schematic Design
+### 1. Schematic Design
 
-\- Component selection and placement.
+- Component selection and placement.
 
-\- Power distribution design.
+- Power distribution design.
 
-\- Microcontroller connections.
+- Microcontroller connections.
 
-\- Peripheral and expansion-header connections.
-
-
-
-\### 2. PCB Layout
-
-\- Component placement and board organisation.
-
-\- Signal routing across two copper layers.
-
-\- Ground-plane and power-distribution considerations.
-
-\- Design-rule checking (DRC).
+- Peripheral and expansion-header connections.
 
 
 
-\### 3. Manufacturing Preparation
+### 2. PCB Layout
 
-\- Gerber file generation.
+- Component placement and board organisation.
 
-\- Bill of Materials (BOM) export.
+- Signal routing across two copper layers.
 
-\- Fabrication-file verification through JLCPCB.
+- Ground-plane and power-distribution considerations.
+
+- Design-rule checking (DRC).
 
 
 
-\## Design Verification
+### 3. Manufacturing Preparation
+
+- Gerber file generation.
+
+- Bill of Materials (BOM) export.
+
+- Fabrication-file verification through JLCPCB.
+
+
+
+## Design Verification
 
 
 
@@ -168,11 +168,11 @@ The completed KiCad design achieved:
 
 
 
-\- 0 DRC errors.
+- 0 DRC errors.
 
-\- 0 DRC warnings.
+- 0 DRC warnings.
 
-\- 0 unconnected items.
+- 0 unconnected items.
 
 
 
@@ -184,7 +184,7 @@ These results indicate that the design passed the checks performed at this stage
 
 
 
-\## Repository Structure
+## Repository Structure
 
 
 
@@ -196,33 +196,33 @@ These results indicate that the design passed the checks performed at this stage
 
 ├── Hardware/
 
-│   ├── KiCad\_Project/
+│   ├── KiCad_Project/
 
-│   │   ├── radar-controller.kicad\_pcb
+│   │   ├── radar-controller.kicad_pcb
 
-│   │   ├── radar-controller.kicad\_pro
+│   │   ├── radar-controller.kicad_pro
 
-│   │   └── radar-controller.kicad\_sch
+│   │   └── radar-controller.kicad_sch
 
 │   │
 
 │   ├── Schematics/
 
-│   ├── PCB\_Layout/
+│   ├── PCB_Layout/
 
-│   └── 3D\_Models/
+│   └── 3D_Models/
 
 │
 
 ├── Manufacturing/
 
-│   ├── Gerber\_Files/
+│   ├── Gerber_Files/
 
 │   ├── BOM/
 
 │   │   └── radar-controller.csv
 
-│   └── Drill\_Files/
+│   └── Drill_Files/
 
 │
 
@@ -252,7 +252,7 @@ These results indicate that the design passed the checks performed at this stage
 
 
 
-\## Future Improvements
+## Future Improvements
 
 
 
@@ -260,21 +260,21 @@ The next stages of development include:
 
 
 
-\- Physically fabricating and assembling the PCB.
+- Physically fabricating and assembling the PCB.
 
-\- Testing the 5V input and 3.3V power regulation.
+- Testing the 5V input and 3.3V power regulation.
 
-\- Verifying ESP32-C3 operation.
+- Verifying ESP32-C3 operation.
 
-\- Integrating a compatible 24 GHz radar module.
+- Integrating a compatible 24 GHz radar module.
 
-\- Developing firmware for radar data acquisition and processing.
+- Developing firmware for radar data acquisition and processing.
 
-\- Testing the complete system under real operating conditions.
+- Testing the complete system under real operating conditions.
 
 
 
-\## Learning Experience
+## Learning Experience
 
 
 
@@ -294,27 +294,27 @@ The project helped me develop a practical understanding of how electronic hardwa
 
 
 
-\## Tools and Technologies
+## Tools and Technologies
 
 
 
-\- \*\*KiCad\*\* — Electronic design automation and PCB layout.
+- **KiCad** — Electronic design automation and PCB layout.
 
-\- \*\*ESP32-C3\*\* — Microcontroller.
+- **ESP32-C3** — Microcontroller.
 
-\- \*\*USB Type-C\*\* — Power input.
+- **USB Type-C** — Power input.
 
-\- \*\*24 GHz FMCW Radar\*\* — Intended sensor interface.
+- **24 GHz FMCW Radar** — Intended sensor interface.
 
-\- \*\*JLCPCB\*\* — Manufacturing-file verification.
+- **JLCPCB** — Manufacturing-file verification.
 
-\- \*\*Google Gemini\*\* — Interactive learning assistance.
-
-
-
-\---
+- **Google Gemini** — Interactive learning assistance.
 
 
 
-\*This repository documents the design and manufacturing preparation stages. Physical hardware validation is still pending.\*
+---
+
+
+
+*This repository documents the design and manufacturing preparation stages. Physical hardware validation is still pending.*
 
