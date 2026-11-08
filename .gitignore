@@ -1,0 +1,12 @@
+# KiCad local files
+.history/
+*.kicad_prl
+*.lck
+
+# Temporary and backup files
+*.bak
+*.tmp
+
+# Operating system files
+Thumbs.db
+Desktop.ini
